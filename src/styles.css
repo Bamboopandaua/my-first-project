@@ -1,0 +1,52 @@
+h1 {
+  margin-top: 30px;
+  color: gray;
+  font-weight: bold;
+  font-size: 50px
+
+}
+
+img {
+  margin-left: 10px;
+}
+input {
+  display: block;
+}
+form,
+.auto-class {
+  margin: 0.5rem;
+  width: 30%;
+}
+.date {
+  margin-left: 10px;
+  color: #31e1f7;
+  font-size: 40px;
+}
+.temp {
+  color: gray;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 20px;S
+}
+.more{
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+  margin-top: 30px;
+}
+.sun{
+  color: orange
+}
+.cloud{
+  color: rgb(24, 24, 105);
+}
+.weather{
+  
+  position: relative;
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+ letter-spacing: 1px;
+ 
+
+  
+}
