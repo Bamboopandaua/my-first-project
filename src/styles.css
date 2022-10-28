@@ -2,8 +2,7 @@ h1 {
   margin-top: 30px;
   color: gray;
   font-weight: bold;
-  font-size: 50px
-
+  font-size: 50px;
 }
 
 img {
@@ -26,27 +25,23 @@ form,
   color: gray;
   font-weight: bold;
   font-size: 40px;
-  margin-left: 20px;S
+  margin-left: 20px;
 }
-.more{
+.more {
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
   margin-top: 30px;
 }
-.sun{
-  color: orange
+.sun {
+  color: orange;
 }
-.cloud{
+.cloud {
   color: rgb(24, 24, 105);
 }
-.weather{
-  
+.weather {
   position: relative;
   display: block;
   margin-top: 20px;
   padding: 20px;
- letter-spacing: 1px;
- 
-
-  
+  letter-spacing: 1px;
 }
