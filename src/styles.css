@@ -10,12 +10,14 @@ img {
 }
 input {
   display: block;
+  width: 50%;
 }
 form,
 .auto-class {
   margin: 0.5rem;
   width: 30%;
 }
+
 .date {
   margin-left: 10px;
   color: #31e1f7;
