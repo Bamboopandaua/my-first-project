@@ -61,14 +61,17 @@ a:link,
 a:active {
   text-decoration: none;
 }
-#celsius-link {
+#celsius-link.active,
+#fahrenheit-link.active {
   cursor: default;
   color: black;
 }
-#celsius-link:hover {
+#celsius-link.active:hover,
+#fahrenheit-link.active:hover {
   text-decoration: none;
 }
 
+#celsius-link,
 #fahrenheit-link {
   color: blue;
 }
