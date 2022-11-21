@@ -21,6 +21,31 @@ let days = [
 let day = days[now.getDay()];
 h2.innerHTML = `${day}, ${hours}:${minutes}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Thu", "Fri", "Sat", "Sun"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+<div class="col-2">
+          <div class="weather-forecast-date">${day}</div>
+            <i class="fa-solid fa-cloud cloud"></i>
+        <div class="weather-forecast-temperatures">
+          <span class="weather-forecast-temperature-max">
+            29°C </span>     
+          <span class="weather-forecast-temperature-min"> 20°C</span>
+          </div>
+     </div>   
+`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayWeatherCondition(response) {
   console.log(response.data);
   let iconElement = document.querySelector("#icon");
@@ -95,3 +120,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 searchCity("Kherson");
+displayForecast();

@@ -50,6 +50,12 @@ form,
   padding: 20px;
   letter-spacing: 1px;
 }
+.card-body {
+  text-align: center;
+}
+.weather-forecast-temperature-min {
+  color: gray;
+}
 body {
   background: lightblue;
 }
